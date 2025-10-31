@@ -21,7 +21,7 @@ import {
 const AuthLayout = lazy(() => import('./auth/layouts/AuthLayout'));
 const AdminLayout = lazy(() => import('./admin/layouts/AdminLayout'));
 
-export const appRouter = createBrowserRouter([
+export const appRouter = createHashRouter([
   // Main routes
   {
     path: '/',
